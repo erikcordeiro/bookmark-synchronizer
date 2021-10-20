@@ -1,0 +1,29 @@
+{
+  "name": "bookmark-synchronizer",
+  "version": "1.0.0",
+  "description": "Bookmark sync tool between Microsoft Edge and Google Chrome browsers.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/app",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikcordeiro/bookmark-synchronizer.git"
+  },
+  "author": "Eric N. Cordeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikcordeiro/bookmark-synchronizer/issues"
+  },
+  "homepage": "https://github.com/erikcordeiro/bookmark-synchronizer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.1",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}
